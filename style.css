@@ -1,13 +1,16 @@
+/* Universal selector that applies to all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element selector, body style */
 body {
     background-color: #d9dcd6;
 }
 
+/* Class selector, header style */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,17 +18,20 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+/* Class selector, header h1 style */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Class selector, header h1 .seo style*/
+.seo {
     color: #d9dcd6;
 }
 
+/* Element selector, nav style */
 /* Replaced header div selector with nav */
-.header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,26 +39,30 @@ body {
     font-size: 20px;
 }
 
+/* Element selector, navigation ul style */
 /* Replaced header div selector with nav */
-.header nav ul {
+nav ul {
     list-style-type: none;
 } 
 
 /* Replaced header div selector with nav */
-.header nav ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Element selector, Link style */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Element selector, Paragraph style */
 p {
     font-size: 16px;
 }
 
+/* Class selector, hero section style*/
 .hero {
     height: 800px;
     width: 100%;
@@ -62,6 +72,7 @@ p {
     background-position: center;
 }
 
+/* Class selectors, image float style */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -72,12 +83,14 @@ p {
     margin-left: 25px;
 }
 
+/* Class selector, content style */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Class selector, benefits style */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,6 +102,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Class selectors, aside benefit styles */
 /* Removed redunant selectors */
 .benefit-lead, 
 .benefit-brand,
@@ -97,6 +111,7 @@ p {
     color: #ffffff;
 }
 
+/* Class selectors, aside benefit h3 styles*/
 /* Removed redunant selectors */
 .benefit-lead h3,
 .benefit-brand h3,
@@ -105,6 +120,7 @@ p {
     text-align: center;
 }
 
+/* Class selectors, aside benefit image styles */
 /* Removed redunant selectors */
 .benefit-lead img,
 .benefit-brand img,
@@ -114,6 +130,7 @@ p {
     max-width: 150px;
 }
 
+/* Class selectors,  styles */
 /* Removed redunant selectors */
 .search-engine-optimization,
 .online-reputation-management,
@@ -126,6 +143,7 @@ p {
     color: #ffffff;
 }
 
+/* Class selectors, image styles */
 /* Removed redunant selectors */
 .search-engine-optimization img,
 .online-reputation-management img,
@@ -133,6 +151,7 @@ p {
     max-height: 200px;
 }
 
+/* Class selectors, h2 styles */
 /* Removed redunant selectors */
 .search-engine-optimization h2,
 .online-reputation-management h2,
@@ -141,6 +160,7 @@ p {
     font-size: 36px;
 }
 
+/* Class selector, footer style */
 .footer {
     padding: 30px;
     clear: both;
@@ -148,6 +168,7 @@ p {
     text-align: center;
 }
 
+/* Class selector, footer h2 style */
 .footer h2 {
     font-size: 20px;
 }
