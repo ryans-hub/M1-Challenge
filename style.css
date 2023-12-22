@@ -19,13 +19,13 @@ body {
 }
 
 /* Class selector, header h1 style */
-h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Class selector, header h1 .seo style*/
-.seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
